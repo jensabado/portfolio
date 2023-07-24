@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Jennifer Sabado</title>
+
+	<link rel="icon" href="./images/avatar1.jpg">
+
+	<!------- Link CSS ------->
+	<link rel="stylesheet" href="./app/style.css" />
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.7.0.js"
+		integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+	<!-------- Font Awasome ------>
+	<script src="https://kit.fontawesome.com/d28415ff34.js" crossorigin="anonymous"></script>
+
+	<!-- google font -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- lightbox -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+	<!-- isotope -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- typed js -->
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+	<!-- emailjs -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	</script>
+
+	<!-- sweetalert2 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+	<header>
+		<div class="headerContainer">
+			<nav>
+				<ul class="menu">
+					<li class="active"><a class="link" href="#">About</a></li>
+					<li><a class="link" href="#">Resume</a></li>
+					<li><a class="link" href="#">Portfolio</a></li>
+					<li><a class="link" href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<aside class="aside active">
+			<div class="innerContainer2">
+				<p class="img">
+					<img src="./images/avatar1.jpg" alt="" />
+				</p>
+				<div>
+					<h2>Jennifer Sabado</h2>
+					<span id="webBtn">Web Developer</span>
+				</div>
+			</div>
+			<button id="showContacts">
+				<span>Show Contacts</span>
+				<i class="fas fa-angle-down"></i>
+			</button>
+			<div class="innerContainer">
+				<hr />
+				<div class="info">
+					<div class="svg">
+						<i class="far fa-envelope-open"></i>
+					</div>
+					<div class="content">
+						<p>EMAIL</p>
+						<a style="cursor: pointer;" href="mailto:sabadojennifer12@gmail.com"
+							target="_blank">sabadojennifer12@gmail.com</a>
+					</div>
+				</div>
+				<div class="info">
+					<div class="svg phone">
+						<i class="fas fa-mobile-alt"></i>
+					</div>
+					<div class="content">
+						<p>PHONE</p>
+						<a href="+639162622138">(+63)9162622138</a>
+					</div>
+				</div>
+				<div class="info">
+					<div class="svg calender">
+						<i class="far fa-calendar-alt"></i>
+					</div>
+					<div class="content">
+						<p>BIRTHDAY</p>
+						<time datetime="2002-03-02">December 22, 2000</time>
+					</div>
+				</div>
+				<div class="info">
+					<div class="svg location">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="content">
+						<p>LOCATION</p>
+						<address>Bacoor City,<br />Cavite</address>
+					</div>
+				</div>
+				<hr />
+			</div>
+			<div class="mediaLink">
+				<ul>
+					<li>
+						<a href="https://github.com/jensabado" target="_blank"><i
+								class="fab fa-brands fa-github"></i></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/jennifer.sabado.9843/" target="_blank"><i
+								class="fab fa-brands fa-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/jennifer-sabado-364998282" target="_blank"><i
+								class="fab fa-brands fa-linkedin-in"></i></a>
+					</li>
+					<li>
+						<a href="https://instagram.com/sabado_jennifer?igshid=NGExMmI2YTkyZg==" target="_blank"><i
+								class="fab fa-brands fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<div class="article">
+			<!------- start of About ------->
+			<section class="about  active">
+				<div class="aboutContainer">
+					<h1 class="heading">About Me</h1>
+					<p>Hello! I am Jennifer Sabado, I am a web developer, digital artist, hobbyist photographer, and web
+						development freelancer. With my diverse range of skills and interests, I enjoy creating visually
+						appealing and functional websites while incorporating my artistic flair. I am passionate about
+						leveraging technology to bring ideas to life and crafting engaging online experiences. Whether
+						it's building websites, designing graphics, or capturing moments through photography, I thrive
+						on the creative process and continually strive to expand my knowledge and skills in the digital
+						realm.</p>
+
+					<div class="skills">
+						<h3>Skills</h3>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Java Script</li>
+							<li>SASS</li>
+							<li>PHP</li>
+							<li>Laravel</li>
+							<li>C#</li>
+							<li>.NET</li>
+							<li>JQuery</li>
+							<li>Python</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="resume">
+				<div class="resumeContainer">
+					<h1 class="heading">Resume</h1>
+					<div class="book">
+						<div class="svg">
+							<i class="fas fa-book"></i>
+						</div>
+						<h2 class="heading2">Education</h2>
+					</div>
+					<ul>
+						<li>
+							<h3 class="heading3">Cavite State University - Bacoor Campus</h3>
+							<p>2019 - Present</p>
+							<p>
+								Bachelor of Science in Information Technology
+							</p>
+						</li>
+						<li>
+							<h3 class="heading3">Senior High School San Nicolas III</h3>
+							<p>2017 - 2019</p>
+							<p>
+								Information Communication Technology - Computer System Servicing
+							</p>
+						</li>
+					</ul>
+
+					<div class="book" style="margin-top: 40px !important;">
+						<div class="svg">
+							<i class="fas fa-solid fa-briefcase"></i>
+						</div>
+						<h2 class="heading2">Professional Experience</h2>
+					</div>
+					<ul>
+						<li>
+							<h3 class="heading3">Web Development Freelancer</h3>
+							<p>2022 - Present</p>
+						</li>
+						<li>
+							<h3 class="heading3">Admin Assistant Officer(INTERN)</h3>
+							<p>March 2023 - June 2023</p>
+							<p>
+								PHLPOST Las Pinas Central Post Office
+							</p>
+						</li>
+						<li>
+							<h3 class="heading3">Capstone Project | FrontEnd & BackEnd Developer</h3>
+							<p>January 2023</p>
+							<p>
+								Amarah's Corner Ordering System
+							</p>
+						</li>
+						<li>
+							<h3 class="heading3">Computer System Servicing NCII Passer</h3>
+							<p>2019</p>
+							<p>
+								Datacom Institute of Computer Technology Senior High School
+							</p>
+						</li>
+						<li>
+							<h3 class="heading3">IMMERSION(80 Hours)</h3>
+							<p>2019</p>
+							<p>
+								Datacom Institute of Computer Technology Senior High School
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="portfolio">
+				<div class="portfolioContainer">
+					<h1 class="heading">Portfolio</h1>
+					<p class="portfolio_header"><span>Web Projects</span></p>
+					<div class="projectsContainer">
+						<div class="projects">
+							<a href="./images/portfolio/web-4.png" alt="Amarah's Corner Online Ordering System"
+								target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-4.png" alt="Amarah's Corner Online Ordering System"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Amarah's Corner Online Ordering System</p>
+								<p class="projectType">Web</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/web-6.png" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-6.png" alt="Incyclist Ordering System(Static)"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Incyclist Ordering System(Static)</p>
+								<p class="projectType">Web</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/web-3.png" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-3.png" alt="MIS For FMH Animal Clinic"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">MIS For FMH Animal Clinic</p>
+								<p class="projectType">Web</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/web-6.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-6.jpg"
+										alt="Appointment System For Comia Dental Clinic" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Appointment System For Comia Dental Clinic</p>
+								<p class="projectType">Web</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/web-5.png" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-5.png"
+										alt="Margaux Cacti's & Succulents Corner Ordering System"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Margaux Cacti's & Succulents Corner Ordering System</p>
+								<p class="projectType">Web</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/web-1.png" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-1.png" alt="Vaccine Information System"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Vaccine Information System</p>
+								<p class="projectType">Web</p>
+							</a>
+						</div>
+					</div>
+
+					<p style="margin-top: 20px !important;" class="portfolio_header"><span>Design Projects</span></p>
+					<div class="projectsContainer">
+						<div class="projects">
+							<a href="./images/portfolio/design-1.png" alt="Amarah's Corner Online Ordering System"
+								target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/design-1.png" alt="Library Management System"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Library Management System</p>
+								<p class="projectType">Design</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/design-2.png" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/design-2.png" alt="Incyclist Ordering System"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Incyclist Ordering System</p>
+								<p class="projectType">Design</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/web-2.png" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/web-2.png" alt="Art Commission Site"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Art Commission Site</p>
+								<p class="projectType">Design</p>
+							</a>
+						</div>
+					</div>
+
+					<p style="margin-top: 20px !important;" class="portfolio_header"><span>Art Projects</span></p>
+					<div class="projectsContainer">
+						<div class="projects">
+							<a href="./images/portfolio/art-1.jpg" alt="Amarah's Corner Online Ordering System"
+								target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-1.jpg" alt="Vexel" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Vexel</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-2.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-2.jpg" alt="Logo" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Logo</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-3.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-3.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-4.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-4.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-5.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-5.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-6.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-6.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-7.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-7.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-8.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-8.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-9.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-9.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Banner</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-10.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-10.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Vexel</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-11.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-11.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Vexel</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-12.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-12.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Vexel</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/art-13.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/art-13.jpg" alt="Banner" data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Vexel</p>
+								<p class="projectType">Art</p>
+							</a>
+						</div>
+
+
+					</div>
+
+					<p style="margin-top: 20px !important;" class="portfolio_header"><span>Photography</span></p>
+					<div class="projectsContainer">
+						<div class="projects">
+							<a href="./images/portfolio/photograph-1.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-1.jpg" alt="Photography Sample 1"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 1</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-2.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-2.jpg" alt="Photography Sample 2"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 2</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-3.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-3.jpg" alt="Photography Sample 3"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 3</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-4.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-4.jpg" alt="Photography Sample 4"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 4</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-5.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-5.jpg" alt="Photography Sample 5"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 5</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-6.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-6.jpg" alt="Photography Sample 6"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 6</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-7.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-7.jpg" alt="Photography Sample 7"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 7</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-8.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-8.jpg" alt="Photography Sample 8"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 8</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+						<div class="projects">
+							<a href="./images/portfolio/photograph-9.jpg" target="_blank">
+								<div class="img">
+									<img src="./images/portfolio/photograph-9.jpg" alt="Photography Sample 9"
+										data-lightbox="portfolio" />
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="aboutProject">Photography Sample 9</p>
+								<p class="projectType">Photography</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact">
+				<div class="contactContainer">
+					<h2 class="heading">Say Hello</h2>
+					<div class="map">
+						<figure>
+							<iframe style="height:100%;width:100%;border:0;" frameborder="0"
+								src="https://www.google.com/maps/embed/v1/place?q=San+Nicolas+III,+Bacoor,+Cavite,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+						</figure>
+					</div>
+					<div>
+						<div class="nameGmail">
+							<input type="text" name="name" id="name" required placeholder="Fill Name" />
+							<input type="email" name="email" id="email" required placeholder="Email" />
+						</div>
+						<textarea name="message" id="message" required placeholder="Message"=""></textarea>
+						<button class="formBtn" onclick="sendEmail()"><i class="fas fa-paper-plane"></i> Sent
+							Message</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<!------- Link JS ------->
+	<script src="./app/script.js"></script>
+	<script>
+		(function () {
+			emailjs.init("Hl-AEr9qdxPiUcYO6");
+		})();
+
+		function sendEmail() {
+			var params = {
+				from_name: document.getElementById('name').value,
+				email_add: document.getElementById('email').value,
+				message: document.getElementById('message').value,
+			}
+
+			emailjs.send("service_7gh9m8m", "template_f6gqd1f", params).then(function (res) {
+				Swal.fire({
+					icon: 'success',
+					title: 'Success!',
+					text: 'Email sent successfully!',
+					iconColor: '#185491',
+					confirmButtonColor: '#483c8e',
+					showConfirmButton: false,
+					timer: 5000,
+					timerProgressBar: true,
+					color: '#185491',
+					background: '#fff',
+				}).then(function () {
+					location.reload();
+				});
+			})
+		}
+	</script>
+</body>
+
+</html>
